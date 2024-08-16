@@ -24,7 +24,7 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body className={`${subset.className}  bg-black text-white`}>
+      <body className={`${subset.className}`}>
         <Header />
         <MantineProvider>{children}</MantineProvider>
         <Footer />
